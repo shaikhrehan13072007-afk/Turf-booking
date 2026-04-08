@@ -1,0 +1,79 @@
+body {
+    background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y3JpY2tldHR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+#message {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    background-color: lightcoral;
+    padding: 20px;  
+    border-radius: 10px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    width: 50%;
+    height: auto;
+    margin: auto;
+}   
+
+#text {
+    font-size: 18px;
+    color: black;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+
+#register {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    background-color: lightcoral;
+    padding: 20px;  
+    border-radius: 10px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    width: 50%;
+    height: auto;
+    margin: auto;
+}
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: black;
+    background-color: lightblue;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+button:hover {
+    color: white;
+    background-color: purple;
+    scale: 1.2;
+    transition: all 0.3s ease;
+}
+
+#booking {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    background-color: lightcoral;
+    padding: 20px;  
+    border-radius: 10px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    width: 50%;
+    height: auto;
+    margin: auto;
+}

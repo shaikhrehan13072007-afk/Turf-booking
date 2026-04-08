@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="text">
+    <h1>Dashboard</h1>
+    <p>Welcome to your dashboard!</p>
+    <p>This is your dashboard where you can book your slots for your games.</p>
+    </div>
+
+<div id="booking">
+    <h2>Book a Slot</h2>
+            <label for="Name"> enter your name:</label>
+            <input type="text" id="username" name="username" placeholder="enter your name" required><br><br>
+
+            <label for="time"> Select Time:</label>
+            <input type="time" id="time" name="time" placeholder="start time" required><br><br>
+
+            <label for="duration"> Duration:</label>
+            <input type="text" id="duration" name="duration" placeholder="enter duration" required><br><br>
+
+            <label for="date"> Select Date:</label>
+            <input type="date" id="date" name="date" placeholder="select date" required><br><br>
+
+            <label for="email"> Email:</label>
+            <input type="email" id="email" name="email" placeholder="enter your email" required><br><br>
+
+            <label for="Mobile"> Mobile Number:</label>
+            <input type="text" id="Mobile" name="Mobile" placeholder="enter your mobile number" required><br><br>
+            
+            <button onclick="bookSlot()">Book Slot</button>
+            <script>
+                function bookSlot() {
+                    if (document.getElementById("username").value === "" || document.getElementById("time").value === "" || document.getElementById("duration").value === "" || document.getElementById("date").value === "" || document.getElementById("email").value === "" || document.getElementById("Mobile").value === "") {
+                        alert("Please fill in all fields.");
+                    } else {
+                        alert("Your slot has been booked successfully!");
+                    }
+                }
+            </script>   
+</div>
+</body>
+</html>
